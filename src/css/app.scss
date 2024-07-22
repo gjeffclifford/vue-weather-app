@@ -4,14 +4,43 @@
 }
 .q-pa-md{
   box-shadow: 5px 5px 15px 10px gray;
-  border: 1px gray solid;
-  background-color: rgba(255, 255, 255, 0.343);
+  // border: 1px gray solid;
+  background-color: rgba(255, 255, 255, 0.658);
   // filter: blur(2px);
+}
+.m-10 {
+  min-width: 7em;
+  max-width: 7em;
+}
+.d-flex {
+  display: flex;
+}
+.m-1 {
+  margin: 1em
+}
+.content-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-gray {
+  color: gray;
+}
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
 }
 .col {
   padding: 5px;
   background-color:none;
 
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
 }
 td {
   // font-weight: 300;
@@ -51,6 +80,9 @@ table{
   }
   .container-weather{
     width:90%;
+  }
+  .col-xs-12 {
+    width: 100% !important;
   }
 }
 @media only screen and (max-width: 299px) {
